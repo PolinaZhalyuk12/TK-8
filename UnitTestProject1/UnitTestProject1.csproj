@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WpfApp1\OptimalWeightCalculator.csproj">
+    <ProjectReference Include="..\WpfApp1\WpfApp1.csproj">
       <Project>{e265328f-2d8e-40e7-8b93-6237241cf626}</Project>
-      <Name>OptimalWeightCalculator</Name>
+      <Name>WpfApp1</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
